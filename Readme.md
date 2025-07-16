@@ -12,9 +12,9 @@ The relative Entropy is rather a calculated quantity which shows the permissible
 
 This project contains the code implementation of the quantitative risk analysis done in the paper.
 The root directory contains 3 files-
-MeanVarianceOpt.ipynb - This contains the code implementation of the analysis in section 4.1. 
-ConditionalVaRisk.ipynb - This python notebook has code implementation of the analysis in section 5.1 & 5.2. 
-GaussianCopula.ipynb - The section contains the code for robustness to the problem of portfolio credit risk measurement.
+1. MeanVarianceOpt.ipynb - This contains the code implementation of the analysis in section 4.1. 
+2. ConditionalVaRisk.ipynb - This python notebook has code implementation of the analysis in section 5.1 & 5.2. 
+3. GaussianCopula.ipynb - The section contains the code for robustness to the problem of portfolio credit risk measurement.
 
 The folder 'MeanVarianceImperical' contains the real examples of portfolio of stock and focusses on predicting the worst case risk in stressful scenarios.
 
