@@ -1,11 +1,8 @@
 ## Mean–Variance Risk Assessment
 
 This module applies a robust risk-measurement framework to traditional mean–variance portfolio optimization. We:
-
 Compute robust portfolio weights by solving a mean–variance problem under an entropy-budget constraint (θ).
-
 Compare those weights and the associated risk forecast to the nominal (classical) mean–variance solution.
-
 Evaluate the accuracy of our robust variance forecasts against realized variances during historical crises.
 
 ### Crisis Case Studies
@@ -18,6 +15,7 @@ Forecasted variance: 2.39 × 10⁻⁴
 Realized variance: 8.57 × 10⁻⁴
 
 Worst-case forecasted variance: 4.91 × 10⁻⁴
+
 Std Err (worst case): 3.18 × 10⁻⁵
 Model error: 2.52 × 10⁻⁴
 95% confidence interval (incorporating both error terms):
