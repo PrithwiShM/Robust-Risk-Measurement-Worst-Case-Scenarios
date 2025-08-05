@@ -1,4 +1,5 @@
-Mean–Variance Risk Assessment
+## Mean–Variance Risk Assessment
+
 This module applies a robust risk-measurement framework to traditional mean–variance portfolio optimization. We:
 
 Compute robust portfolio weights by solving a mean–variance problem under an entropy-budget constraint (θ).
@@ -7,7 +8,7 @@ Compare those weights and the associated risk forecast to the nominal (classical
 
 Evaluate the accuracy of our robust variance forecasts against realized variances during historical crises.
 
-Crisis Case Studies
+### Crisis Case Studies
 2008 Housing Crisis
 Entropy budget (θ): 700
 
@@ -39,7 +40,7 @@ Model error: 4.07 × 10⁻⁴
 
 Insight: Incorporating the model-error adjustment in the robust forecast brings our variance predictions much closer to the realized outcomes.
 
-Entropy Budget Estimation
+## Entropy Budget Estimation
 The script EntropyBreachEstimation.py reverse-engineers the entropy budget by matching:
 
 Robust Risk(𝜃) vs. Realized Risk
