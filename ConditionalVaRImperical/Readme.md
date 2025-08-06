@@ -40,8 +40,8 @@ Similar worst-case CVaR but with a Wasserstein‐1 constraint instead of KL. Pro
 
 3. Key Takeaways
 * Coverage vs. Efficiency Trade-off  
- - Under-coverage (Hist., GPD) can leave the portfolio exposed to ruinous losses.
- - Over-coverage (FHS, Wasserstein-DRO) ties up too much capital in buffers.
+  - Under-coverage (Hist., GPD) can leave the portfolio exposed to ruinous losses.
+  - Over-coverage (FHS, Wasserstein-DRO) ties up too much capital in buffers.
 
 * Best Balance  
- - The KL‐Divergence DRO approach delivers a middle ground: it adaptively inflates the tail just enough to cover observed losses (“hugs” the series) while avoiding the overly pessimistic levels of the Wasserstein DRO. 
+  - The KL‐Divergence DRO approach delivers a middle ground: it adaptively inflates the tail just enough to cover observed losses (“hugs” the series) while avoiding the overly pessimistic levels of the Wasserstein DRO. 
